@@ -19,13 +19,13 @@ class Param
 
     @text = {
       guide:{value:false}
-      wire:{value:true}
+      wire:{value:false}
       allWire:{value:false}
-      wave:{value:0, min:0, max:500}
-      alpha:{value:50, min:0, max:200}
-      r:{value:100, min:0, max:200}
-      g:{value:100, min:0, max:200}
-      b:{value:100, min:0, max:200}
+      wave:{value:120, min:0, max:500}
+      alpha:{value:170, min:0, max:200}
+      r:{value:117, min:0, max:200}
+      g:{value:35, min:0, max:200}
+      b:{value:200, min:0, max:200}
       blending:{value:'additive', list:[
         'normal',
         'screen',
